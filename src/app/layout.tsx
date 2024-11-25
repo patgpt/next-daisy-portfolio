@@ -19,7 +19,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={clsx(fontSans.variable, fontMono.variable, "antialiased")}
+        className={clsx(fontSans.variable, fontMono.variable, "bg-gradient-to-tr from-primary/40 to-secondary40 antialiased")}
       >
         <Header>
           {children}

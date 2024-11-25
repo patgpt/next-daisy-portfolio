@@ -13,6 +13,30 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      keyframes: {
+        "border-top": {
+          "0%": { transform: "scaleX(0)", filter: "blur(4px)", opacity: "0" },
+          "100%": { transform: "scaleX(1)", filter: "blur(4px)", opacity: "1" },
+        },
+        "border-right": {
+          "0%": { transform: "scaleY(0)", filter: "blur(4px)", opacity: "0" },
+          "100%": { transform: "scaleY(1)", filter: "blur(4px)", opacity: "1" },
+        },
+        "border-bottom": {
+          "0%": { transform: "scaleX(0)", filter: "blur(4px)", opacity: "0" },
+          "100%": { transform: "scaleX(1)", filter: "blur(4px)", opacity: "1" },
+        },
+        "border-left": {
+          "0%": { transform: "scaleY(0)", filter: "blur(4px)", opacity: "0" },
+          "100%": { transform: "scaleY(1)", filter: "blur(4px)", opacity: "1" },
+        },
+      },
+      animation: {
+        "border-top": "border-top 1.2s cubic-bezier(0.34, 1.56, 0.64, 1) forwards",
+        "border-right": "border-right 1.2s cubic-bezier(0.34, 1.56, 0.64, 1) 0.3s forwards",
+        "border-bottom": "border-bottom 1.2s cubic-bezier(0.34, 1.56, 0.64, 1) 0.6s forwards",
+        "border-left": "border-left 1.2s cubic-bezier(0.34, 1.56, 0.64, 1) 0.9s forwards",
+      },
     },
   },
   daisyui: {
