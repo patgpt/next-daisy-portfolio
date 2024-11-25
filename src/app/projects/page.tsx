@@ -65,8 +65,8 @@ export const ProjectsPage = () => {
                                 <div className="flex justify-between items-start">
                                     <h2 className="card-title">{project.title}</h2>
                                     <span className={`badge ${project.status === 'completed' ? 'badge-success' :
-                                            project.status === 'in-progress' ? 'badge-warning' :
-                                                'badge-ghost'
+                                        project.status === 'in-progress' ? 'badge-warning' :
+                                            'badge-ghost'
                                         }`}>
                                         {project.status}
                                     </span>

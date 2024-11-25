@@ -1,0 +1,35 @@
+{
+  "id": "tech_stack",
+  "type": "SharedSlice",
+  "name": "TechStack",
+  "description": "TechStack",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "stack_item": {
+          "type": "Group",
+          "config": {
+            "label": "Stack Item",
+            "repeat": true,
+            "fields": {
+              "item": {
+                "type": "Text",
+                "config": {
+                  "label": "Item",
+                  "placeholder": ""
+                }
+              }
+            }
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

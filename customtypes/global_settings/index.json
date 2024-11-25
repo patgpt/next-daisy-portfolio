@@ -1,0 +1,70 @@
+{
+  "format": "custom",
+  "id": "global_settings",
+  "label": "global settings",
+  "repeatable": false,
+  "status": true,
+  "json": {
+    "Main": {
+      "favicon": {
+        "type": "Image",
+        "config": {
+          "label": "favicon",
+          "constraint": {
+            "width": 16,
+            "height": 16
+          },
+          "thumbnails": []
+        }
+      },
+      "site_title": {
+        "type": "Text",
+        "config": {
+          "label": "Site title",
+          "placeholder": ""
+        }
+      },
+      "site_description": {
+        "type": "Text",
+        "config": {
+          "label": "Site description",
+          "placeholder": ""
+        }
+      },
+      "share_image": {
+        "type": "Image",
+        "config": {
+          "label": "Share Image",
+          "constraint": {},
+          "thumbnails": []
+        }
+      },
+      "main_navigation": {
+        "type": "Group",
+        "config": {
+          "label": "main navigation",
+          "repeat": true,
+          "fields": {
+            "label": {
+              "type": "Text",
+              "config": {
+                "label": "Label",
+                "placeholder": ""
+              }
+            },
+            "href": {
+              "type": "Link",
+              "config": {
+                "label": "href",
+                "placeholder": "",
+                "allowTargetBlank": true,
+                "select": null,
+                "allowText": true
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

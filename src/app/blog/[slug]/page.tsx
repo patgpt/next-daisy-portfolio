@@ -75,7 +75,7 @@ export default function BlogPost({ params }: Props) {
                     <h2 className="text-2xl font-bold mb-6">Related Posts</h2>
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                         {relatedPosts.map(relatedPost => (
-                            <Link
+                            <Link 
                                 key={relatedPost.id}
                                 href={`/blog/${relatedPost.slug}`}
                                 className="card bg-base-200 hover:shadow-lg transition-shadow"
