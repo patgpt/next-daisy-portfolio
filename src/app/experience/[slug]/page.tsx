@@ -20,7 +20,7 @@ export default function ExperiencePage({ params }: { params: { slug: string } })
 
   return (
     <div className="min-h-screen p-8">
-      <Link href="/experiences" className="btn btn-ghost mb-8">
+      <Link href="/experience" className="btn btn-ghost mb-8">
         ← Back to Experiences
       </Link>
 

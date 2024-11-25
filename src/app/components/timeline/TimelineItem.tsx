@@ -5,11 +5,21 @@ import { TimelineDot } from './TimelineDot';
 import { TimelineDate } from './TimelineDate';
 import { TimelineContent } from './TimelineContent';
 
+/**
+ * Props interface for the TimelineItem component
+ */
 export interface TimelineItemProps {
+    /** The timeline item data */
     item: TimelineItemType;
+    /** The index of the item in the timeline list */
     index: number;
 }
 
+/**
+ * Renders a single timeline item with animation effects
+ * @param props - The component props
+ * @returns A timeline item with date, dot, and content
+ */
 const TimelineItem = ({ item, index }: TimelineItemProps) => {
     return (
         <motion.li

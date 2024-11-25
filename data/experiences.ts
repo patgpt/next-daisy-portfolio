@@ -57,6 +57,30 @@ export const experiences: {
     skills: ["Adobe XD", "Optimizely", "Adobe Target", "A/B Testing"],
   },
   {
+    slug: "sportchek-2019",
+    date: "November 2019 - December 2020",
+    title: "User Experience Developer",
+    company: "Canadian Tire Corporation - Sportchek",
+    location: "Calgary, Canada",
+    description:
+      "Supported user experience testing and experimentation for Canadian Tire Corporation's 'Sportchek' website. Enhanced UX testing opportunities and improved conversion rates using various tools.",
+    side: "right",
+    logo: "/images/logos/sportchek-logo.jpg",
+    skills: ["Adobe XD", "Optimizely", "Adobe Target", "A/B Testing"],
+  },
+  {
+    slug: "marks-2019",
+    date: "November 2019 - December 2020",
+    title: "User Experience Developer",
+    company: "Canadian Tire Corporation - Marks",
+    location: "Calgary, Canada",
+    description:
+      "Supported user experience testing and experimentation for Canadian Tire Corporations 'Marks' website. Enhanced UX testing opportunities and improved conversion rates using various tools.",
+    side: "left",
+    logo: "/images/logos/marks-logo.png",
+    skills: ["Adobe XD", "Optimizely", "Adobe Target", "A/B Testing"],
+  },
+  {
     slug: "butterfly-design-2011",
     date: "January 2011 - 2020",
     title: "Senior Web Application Developer",
