@@ -1,4 +1,3 @@
-
 export interface TimelineItem {
   date: string;
   title: string;
@@ -7,6 +6,8 @@ export interface TimelineItem {
   description: string;
   side: 'left' | 'right';
   logo?: string;
+  skills?: string[];
+  slug: string;
 }
 
 export interface TimelineProps {
