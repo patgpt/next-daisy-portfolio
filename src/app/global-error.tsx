@@ -1,6 +1,12 @@
-
 'use client';
 
+/**
+ * Global error handler component for the application
+ * @param {Object} props - The component props
+ * @param {Error & { digest?: string }} props.error - The error that occurred
+ * @param {() => void} props.reset - Function to reset the error boundary
+ * @returns {JSX.Element} Global error UI
+ */
 export default function GlobalError({
     error,
     reset,

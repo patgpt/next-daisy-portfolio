@@ -1,8 +1,14 @@
-
 'use client';
 
-import { useEffect } from 'react';
+import { useEffect } from "react";
 
+/**
+ * Error handler component for route segments
+ * @param {Object} props - The component props
+ * @param {Error & { digest?: string }} props.error - The error that occurred
+ * @param {() => void} props.reset - Function to reset the error boundary
+ * @returns {JSX.Element} Error UI for route segments
+ */
 export default function Error({
   error,
   reset,
