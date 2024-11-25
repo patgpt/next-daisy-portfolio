@@ -1,9 +1,10 @@
 "use client";
-import React, { Suspense } from 'react';
+import React, { Suspense, useCallback } from 'react';
 import { TimelineProps } from '../../types/timeline';
 import { motion } from 'framer-motion';
 import TimelineItem from './TimelineItem';
 import { usePathname } from 'next/navigation';
+import { validateTimelineItems } from '../../utils/validation';
 
 const TimelineSkeleton = () => (
   <div className="animate-pulse">
@@ -15,6 +16,16 @@ const TimelineSkeleton = () => (
 
 const Timeline: React.FC<TimelineProps> = ({ items }) => {
   const pathname = usePathname();
+
+  const validateItems = useCallback(() => {
+    try {
+      validateTimelineItems(items);
+    } catch (error) {
+      throw new Error(`Timeline validation failed for ${pathname}: ${error.message}`);
+    }
+  }, [items, pathname]);
+
+  validateItems();
 
   if (!items?.length) {
     throw new Error(`No timeline items found for path: ${pathname}`);

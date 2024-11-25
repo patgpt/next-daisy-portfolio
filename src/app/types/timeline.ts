@@ -1,15 +1,24 @@
+export type Side = 'left' | 'right';
+
 export interface TimelineItem {
-  date: string;
+  slug: string;
   title: string;
-  company?: string;
-  location?: string;
+  company: string;
+  date: string;
   description: string;
-  side: 'left' | 'right';
+  location?: string;
   logo?: string;
   skills?: string[];
-  slug: string;
+  side: Side;
 }
 
 export interface TimelineProps {
   items: TimelineItem[];
+}
+
+export class TimelineValidationError extends Error {
+  constructor(message: string) {
+    super(message);
+    this.name = 'TimelineValidationError';
+  }
 }
