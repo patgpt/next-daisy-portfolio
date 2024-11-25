@@ -1,0 +1,113 @@
+{
+  "format": "page",
+  "id": "experience",
+  "label": "Experience",
+  "repeatable": true,
+  "status": true,
+  "json": {
+    "Main": {
+      "uid": {
+        "type": "UID",
+        "config": {
+          "label": "UID"
+        }
+      },
+      "logo": {
+        "type": "Image",
+        "config": {
+          "label": "Company Logo",
+          "constraint": {
+            "width": 100,
+            "height": 100
+          },
+          "thumbnails": []
+        }
+      },
+      "title": {
+        "type": "Text",
+        "config": {
+          "label": "Title",
+          "placeholder": ""
+        }
+      },
+      "company": {
+        "type": "Text",
+        "config": {
+          "label": "Company",
+          "placeholder": ""
+        }
+      },
+      "date": {
+        "type": "Date",
+        "config": {
+          "label": "Date from",
+          "placeholder": ""
+        }
+      },
+      "date_to": {
+        "type": "Date",
+        "config": {
+          "label": "Date to",
+          "placeholder": ""
+        }
+      },
+      "description": {
+        "type": "StructuredText",
+        "config": {
+          "label": "Job Description",
+          "placeholder": "",
+          "allowTargetBlank": true,
+          "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+        }
+      },
+      "slug": {
+        "type": "Link",
+        "config": {
+          "label": "slug",
+          "placeholder": "",
+          "allowTargetBlank": true,
+          "select": null,
+          "allowText": true
+        }
+      },
+      "slices": {
+        "type": "Slices",
+        "fieldset": "Slice Zone",
+        "config": {
+          "choices": {
+            "tag_cloud": {
+              "type": "SharedSlice"
+            }
+          }
+        }
+      }
+    },
+    "SEO & Metadata": {
+      "meta_title": {
+        "config": {
+          "label": "Meta Title",
+          "placeholder": "A title of the page used for social media and search engines"
+        },
+        "type": "Text"
+      },
+      "meta_description": {
+        "config": {
+          "label": "Meta Description",
+          "placeholder": "A brief summary of the page"
+        },
+        "type": "Text"
+      },
+      "meta_image": {
+        "config": {
+          "constraint": {
+            "height": 1260,
+            "width": 2400
+          },
+          "label": "Meta Image",
+          "thumbnails": []
+        },
+        "type": "Image"
+      }
+    }
+  }
+}

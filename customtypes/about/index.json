@@ -6,32 +6,42 @@
   "status": true,
   "json": {
     "Main": {
-      "pfp": {
-        "type": "Image",
-        "config": {
-          "label": "PFP",
-          "constraint": {
-            "width": 300,
-            "height": 300
-          },
-          "thumbnails": []
-        }
-      },
-      "my_story": {
-        "type": "StructuredText",
-        "config": {
-          "label": "My Story",
-          "placeholder": "",
-          "allowTargetBlank": true,
-          "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
-        }
-      },
       "slices": {
         "type": "Slices",
         "fieldset": "Slice Zone",
         "config": {
           "choices": {
-            "tech_stack": {
+            "pfp_slice": {
+              "type": "SharedSlice"
+            },
+            "follow_meon_social_media_slice": {
+              "type": "SharedSlice"
+            },
+            "title": {
+              "type": "SharedSlice"
+            },
+            "values_slice": {
+              "type": "SharedSlice"
+            },
+            "passion_slice": {
+              "type": "SharedSlice"
+            },
+            "my_stack_slice": {
+              "type": "SharedSlice"
+            },
+            "fun_facts_slice": {
+              "type": "SharedSlice"
+            },
+            "interest_slice": {
+              "type": "SharedSlice"
+            },
+            "highlights_slice": {
+              "type": "SharedSlice"
+            },
+            "currently_building_slice": {
+              "type": "SharedSlice"
+            },
+            "journey_box": {
               "type": "SharedSlice"
             }
           }

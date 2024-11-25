@@ -1,8 +1,8 @@
 {
-  "id": "tech_stack",
+  "id": "dog_photo_carousel",
   "type": "SharedSlice",
-  "name": "TechStack",
-  "description": "TechStack",
+  "name": "DogPhotoCarousel",
+  "description": "DogPhotoCarousel",
   "variations": [
     {
       "id": "default",
@@ -12,17 +12,21 @@
       "description": "Default",
       "imageUrl": "",
       "primary": {
-        "stack_item": {
+        "gallery": {
           "type": "Group",
           "config": {
-            "label": "Stack Item",
+            "label": "Gallery",
             "repeat": true,
             "fields": {
-              "item": {
-                "type": "Text",
+              "photo": {
+                "type": "Image",
                 "config": {
-                  "label": "Item",
-                  "placeholder": ""
+                  "label": "Photo",
+                  "constraint": {
+                    "width": 400,
+                    "height": 400
+                  },
+                  "thumbnails": []
                 }
               }
             }

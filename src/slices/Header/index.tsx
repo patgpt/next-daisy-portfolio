@@ -1,4 +1,5 @@
 import { Content } from "@prismicio/client";
+import { PrismicNextImage } from "@prismicio/next";
 import { SliceComponentProps } from "@prismicio/react";
 
 /**
@@ -15,7 +16,9 @@ const Header = ({ slice }: HeaderProps): JSX.Element => {
       data-slice-type={slice.slice_type}
       data-slice-variation={slice.variation}
     >
-      Placeholder component for header (variation: {slice.variation}) Slices
+      {slice.primary.header_logo && (
+        <PrismicNextImage field={slice.primary.header_logo} />
+      )}
     </section>
   );
 };

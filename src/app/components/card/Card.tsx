@@ -1,42 +1,24 @@
-import Image from "next/image"
-import Link from "next/link";
+import { PrismicNextImage } from "@prismicio/next";
+import { PrismicRichText } from "@prismicio/react";
+import type { BlogPostDocument } from "../../../../prismicio-types";
 
 
-export interface CardProps {
-    image: {
-        src: string;
-        alt: string;
-    }
-    title: string;
-    description: string;
-    button: {
-        label: string;
-        href: string;
-    }
-}
 
-const Card = ({
-    image,
-    title,
-    description,
-    button
-}: CardProps) => {
+
+const Card = (props: BlogPostDocument) => {
     return (
         <div className="card glass h-full">
             <figure className="w-full relative h-[300px]">
-                <Image
+                <PrismicNextImage
                     fill
-                    src={image.src}
-                    alt={image.alt}
+                    field={props.data.featured_image}
                     className="object-cover" />
             </figure>
             <div className="card-body">
-                <h2 className="card-title">{title}</h2>
-                <p>{description}</p>
+                <h2 className="card-title">{props.data.title}</h2>
+                <PrismicRichText field={props.data.content} />
                 <div className="card-actions justify-end">
-                    <Link
-                        href={button.href}
-                        className="btn btn-primary">{button.label}</Link>
+
                 </div>
             </div>
         </div>

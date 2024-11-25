@@ -1,0 +1,52 @@
+{
+  "format": "custom",
+  "id": "about_page",
+  "label": "About Page",
+  "repeatable": false,
+  "status": true,
+  "json": {
+    "Main": {
+      "slices": {
+        "type": "Slices",
+        "fieldset": "Slice Zone",
+        "config": {
+          "choices": {
+            "follow_meon_social_media_slice": {
+              "type": "SharedSlice"
+            },
+            "currently_building_slice": {
+              "type": "SharedSlice"
+            },
+            "fun_facts_slice": {
+              "type": "SharedSlice"
+            },
+            "interest_slice": {
+              "type": "SharedSlice"
+            },
+            "highlights_slice": {
+              "type": "SharedSlice"
+            },
+            "pfp_slice": {
+              "type": "SharedSlice"
+            },
+            "my_stack_slice": {
+              "type": "SharedSlice"
+            },
+            "values_slice": {
+              "type": "SharedSlice"
+            },
+            "passion_slice": {
+              "type": "SharedSlice"
+            },
+            "title": {
+              "type": "SharedSlice"
+            },
+            "journey_box": {
+              "type": "SharedSlice"
+            }
+          }
+        }
+      }
+    }
+  }
+}

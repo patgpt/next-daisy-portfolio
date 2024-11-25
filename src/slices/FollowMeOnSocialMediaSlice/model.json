@@ -1,0 +1,56 @@
+{
+  "id": "follow_meon_social_media_slice",
+  "type": "SharedSlice",
+  "name": "FollowMeOnSocialMediaSlice",
+  "description": "FollowMeonSocialMediaSlice",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "social_links": {
+          "type": "Group",
+          "config": {
+            "label": "Follow me on Social Media",
+            "repeat": true,
+            "fields": {
+              "icon": {
+                "type": "Image",
+                "config": {
+                  "label": "Icon",
+                  "constraint": {
+                    "width": 64,
+                    "height": 64
+                  },
+                  "thumbnails": []
+                }
+              },
+              "url": {
+                "type": "Link",
+                "config": {
+                  "label": "URL",
+                  "placeholder": "",
+                  "allowTargetBlank": true,
+                  "select": null,
+                  "allowText": true
+                }
+              },
+              "network": {
+                "type": "Text",
+                "config": {
+                  "label": "Network",
+                  "placeholder": ""
+                }
+              }
+            }
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "id": "tag_cloud",
+  "type": "SharedSlice",
+  "name": "TagCloud",
+  "description": "TagCloud",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "tag": {
+          "type": "Group",
+          "config": {
+            "label": "Tag",
+            "repeat": true,
+            "fields": {
+              "tags": {
+                "type": "Select",
+                "config": {
+                  "label": "Tags",
+                  "placeholder": "",
+                  "options": [
+                    "Javascript",
+                    "CSS",
+                    "Optimizely",
+                    "AEM",
+                    "Google Tag Manager",
+                    "Google Analytics",
+                    "NextJS",
+                    "Contentful",
+                    "Prismic",
+                    "UX",
+                    "Google Analytics",
+                    "SASS",
+                    "HTML",
+                    "Agile",
+                    "Scrum",
+                    "WordPress",
+                    "Flutter",
+                    "iOS Development",
+                    "Android Development",
+                    "Web Development",
+                    "Vue",
+                    "React",
+                    "Redux",
+                    "Social Media Marketing",
+                    "SEO"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

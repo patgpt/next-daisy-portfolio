@@ -1,5 +1,6 @@
 import { Content } from "@prismicio/client";
-import { SliceComponentProps } from "@prismicio/react";
+import { PrismicNextImage } from "@prismicio/next";
+import { PrismicRichText, SliceComponentProps } from "@prismicio/react";
 
 /**
  * Props for `Author`.
@@ -15,7 +16,25 @@ const Author = ({ slice }: AuthorProps): JSX.Element => {
       data-slice-type={slice.slice_type}
       data-slice-variation={slice.variation}
     >
-      Placeholder component for author (variation: {slice.variation}) Slices
+      <div className="prose prose-lg max-w-none my-8">
+        <h2>Author: </h2>
+      </div>
+      <div className="flex flex-wrap gap-2">
+        <div className="flex items-center gap-4">
+          <div className="w-16 h-16 bg-base-200 rounded-full">
+            <PrismicNextImage
+              className="rounded-full"
+              field={slice.primary.author_image} />
+          </div>
+          <div>
+            <h3 className="text-2xl">{
+              slice.primary.author_name
+            }</h3>
+
+            <PrismicRichText field={slice.primary.author_bio} />
+          </div>
+        </div>
+      </div>
     </section>
   );
 };

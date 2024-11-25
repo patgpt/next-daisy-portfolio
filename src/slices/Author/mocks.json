@@ -22,14 +22,25 @@
 					"background": "transparent"
 				},
 				"credits": null,
-				"alt": null,
+				"alt": "Image of Author",
 				"__TYPE__": "ImageContent",
 				"thumbnails": {}
 			},
 			"author_name": {
 				"__TYPE__": "FieldContent",
-				"value": "further",
-				"type": "Text"
+				"type": "Text",
+				"value": "Patrick Kelly"
+			},
+			"author_bio": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Tempor minim dolor eiusmod quis cupidatat exercitation cupidatat tempor non et esse."
+						}
+					}
+				]
 			}
 		},
 		"items": []

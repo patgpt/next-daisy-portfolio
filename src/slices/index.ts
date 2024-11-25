@@ -4,9 +4,26 @@ import dynamic from "next/dynamic";
 
 export const components = {
   author: dynamic(() => import("./Author")),
-  footer: dynamic(() => import("./Footer")),
+  content: dynamic(() => import("./Content")),
+  currently_building_slice: dynamic(() => import("./CurrentlyBuildingSlice")),
+  date: dynamic(() => import("./Date")),
+  dog_photo_carousel: dynamic(() => import("./DogPhotoCarousel")),
+  follow_meon_social_media_slice: dynamic(
+    () => import("./FollowMeOnSocialMediaSlice"),
+  ),
+  footer: dynamic(() => import("./FooterSlice")),
+  fun_facts_slice: dynamic(() => import("./FunFactsSlice")),
   header: dynamic(() => import("./Header")),
   hero: dynamic(() => import("./Hero")),
+  highlights_slice: dynamic(() => import("./HighlightsSlice")),
+  interest_slice: dynamic(() => import("./InterestSlice")),
+  journey_box: dynamic(() => import("./JourneySlice")),
   latest_blogs: dynamic(() => import("./LatestBlogs")),
-  tech_stack: dynamic(() => import("./TechStack")),
+  my_stack_slice: dynamic(() => import("./MyStackSlice")),
+  navigation: dynamic(() => import("./Navigation")),
+  passion_slice: dynamic(() => import("./PassionSlice")),
+  pfp_slice: dynamic(() => import("./PfpSlice")),
+  tag_cloud: dynamic(() => import("./TagCloud")),
+  title: dynamic(() => import("./Title")),
+  values_slice: dynamic(() => import("./ValuesSlice")),
 };

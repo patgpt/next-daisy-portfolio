@@ -25,6 +25,7 @@ export default function RootLayout({
           {children}
         </Header>
         <Footer />
+        <script async defer src="https://static.cdn.prismic.io/prismic.js?new=true&repo=my-portfolio-daisy"></script>
       </body>
     </html>
   );

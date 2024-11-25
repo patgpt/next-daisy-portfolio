@@ -1,0 +1,150 @@
+{
+  "id": "footer",
+  "type": "SharedSlice",
+  "name": "FooterSlice",
+  "description": "Footer",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "coptyright": {
+          "type": "Text",
+          "config": {
+            "label": "coptyright",
+            "placeholder": ""
+          }
+        },
+        "Services_navigation": {
+          "type": "Group",
+          "config": {
+            "label": "Services Navigation",
+            "repeat": true,
+            "fields": {
+              "label": {
+                "type": "Text",
+                "config": {
+                  "label": "Label",
+                  "placeholder": ""
+                }
+              },
+              "href": {
+                "type": "Link",
+                "config": {
+                  "label": "href",
+                  "placeholder": "",
+                  "allowTargetBlank": true,
+                  "select": null,
+                  "allowText": true
+                }
+              }
+            }
+          }
+        },
+        "company_navigation": {
+          "type": "Group",
+          "config": {
+            "label": "Company Navigation",
+            "repeat": true,
+            "fields": {
+              "label": {
+                "type": "Text",
+                "config": {
+                  "label": "Label",
+                  "placeholder": "Link Label"
+                }
+              },
+              "href": {
+                "type": "Link",
+                "config": {
+                  "label": "Href",
+                  "placeholder": "/",
+                  "allowTargetBlank": true,
+                  "select": null,
+                  "allowText": true
+                }
+              }
+            }
+          }
+        },
+        "footer_logo": {
+          "type": "Image",
+          "config": {
+            "label": "Footer logo",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "privacy_policy": {
+          "type": "Link",
+          "config": {
+            "label": "Privacy Policy",
+            "select": "document",
+            "customtypes": ["privacy_policy"]
+          }
+        },
+        "legal_navigation": {
+          "type": "Group",
+          "config": {
+            "label": "Legal Navigation",
+            "repeat": true,
+            "fields": {
+              "label": {
+                "type": "Text",
+                "config": {
+                  "label": "Label",
+                  "placeholder": "Link"
+                }
+              },
+              "href": {
+                "type": "Link",
+                "config": {
+                  "label": "Href",
+                  "placeholder": "/",
+                  "allowTargetBlank": true,
+                  "select": null,
+                  "allowText": true
+                }
+              }
+            }
+          }
+        },
+        "social_links": {
+          "type": "Group",
+          "config": {
+            "label": "Social Links",
+            "repeat": true,
+            "fields": {
+              "social_icon": {
+                "type": "Image",
+                "config": {
+                  "label": "Social Icon",
+                  "constraint": {
+                    "width": 32,
+                    "height": 32
+                  },
+                  "thumbnails": []
+                }
+              },
+              "network": {
+                "type": "Link",
+                "config": {
+                  "label": "Network",
+                  "placeholder": "",
+                  "allowTargetBlank": true,
+                  "select": null,
+                  "allowText": true
+                }
+              }
+            }
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

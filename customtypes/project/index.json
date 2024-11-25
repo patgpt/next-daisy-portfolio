@@ -12,11 +12,14 @@
           "label": "UID"
         }
       },
-      "featured_image": {
+      "logo": {
         "type": "Image",
         "config": {
-          "label": "Featured Image",
-          "constraint": {},
+          "label": "Logo",
+          "constraint": {
+            "width": 200,
+            "height": 200
+          },
           "thumbnails": []
         }
       },
@@ -34,22 +37,6 @@
           "placeholder": "",
           "allowTargetBlank": true,
           "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
-        }
-      },
-      "skills": {
-        "type": "Group",
-        "config": {
-          "label": "Skills",
-          "repeat": true,
-          "fields": {
-            "skill": {
-              "type": "Text",
-              "config": {
-                "label": "Skill",
-                "placeholder": ""
-              }
-            }
-          }
         }
       },
       "status": {
@@ -92,7 +79,14 @@
         "type": "Slices",
         "fieldset": "Slice Zone",
         "config": {
-          "choices": {}
+          "choices": {
+            "author": {
+              "type": "SharedSlice"
+            },
+            "tag_cloud": {
+              "type": "SharedSlice"
+            }
+          }
         }
       }
     },

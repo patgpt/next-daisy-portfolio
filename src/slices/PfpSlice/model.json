@@ -1,0 +1,30 @@
+{
+  "id": "pfp_slice",
+  "type": "SharedSlice",
+  "name": "PfpSlice",
+  "description": "PfpSlice",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "profile_picture": {
+          "type": "Image",
+          "config": {
+            "label": "Profile Picture",
+            "constraint": {
+              "width": 400,
+              "height": 400
+            },
+            "thumbnails": []
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

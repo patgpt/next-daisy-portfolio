@@ -3,18 +3,18 @@
 		"__TYPE__": "SharedSliceContent",
 		"variation": "default",
 		"primary": {
-			"stack_item": {
+			"tag": {
 				"__TYPE__": "GroupContentType",
 				"value": [
 					{
 						"__TYPE__": "GroupItemContent",
 						"value": [
 							[
-								"item",
+								"tags",
 								{
 									"__TYPE__": "FieldContent",
-									"value": "tomorrow",
-									"type": "Text"
+									"value": "Android Development",
+									"type": "Select"
 								}
 							]
 						]

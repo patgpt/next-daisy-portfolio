@@ -1,0 +1,28 @@
+{
+  "id": "fun_facts_slice",
+  "type": "SharedSlice",
+  "name": "FunFactsSlice",
+  "description": "FunFactsSlice",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "richtextlist": {
+          "type": "StructuredText",
+          "config": {
+            "label": "RichTextList",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "multi": "o-list-item"
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

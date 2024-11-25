@@ -1,0 +1,59 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"highlight": {
+				"__TYPE__": "GroupContentType",
+				"value": [
+					{
+						"__TYPE__": "GroupItemContent",
+						"value": [
+							[
+								"icon",
+								{
+									"origin": {
+										"id": "main",
+										"url": "https://images.unsplash.com/photo-1515378791036-0648a3ef77b2",
+										"width": 5616,
+										"height": 3744
+									},
+									"url": "https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?rect=936%2C0%2C3744%2C3744&w=64&h=64",
+									"width": 64,
+									"height": 64,
+									"edit": {
+										"zoom": 1,
+										"crop": {
+											"x": 936,
+											"y": 0
+										},
+										"background": "transparent"
+									},
+									"credits": null,
+									"alt": null,
+									"__TYPE__": "ImageContent",
+									"thumbnails": {}
+								}
+							],
+							[
+								"highlighttext",
+								{
+									"__TYPE__": "StructuredTextContent",
+									"value": [
+										{
+											"type": "paragraph",
+											"content": {
+												"text": "Occaecat minim pariatur excepteur fugiat magna pariatur ut ut nulla eu laboris esse nulla voluptate Lorem. Qui cupidatat irure excepteur quis."
+											}
+										}
+									]
+								}
+							]
+						]
+					}
+				]
+			}
+		},
+		"items": []
+	}
+]

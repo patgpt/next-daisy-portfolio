@@ -1,0 +1,48 @@
+{
+  "id": "highlights_slice",
+  "type": "SharedSlice",
+  "name": "HighlightsSlice",
+  "description": "HighlightsSlice",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "highlight": {
+          "type": "Group",
+          "config": {
+            "label": "Highlight",
+            "repeat": true,
+            "fields": {
+              "icon": {
+                "type": "Image",
+                "config": {
+                  "label": "Icon",
+                  "constraint": {
+                    "width": 64,
+                    "height": 64
+                  },
+                  "thumbnails": []
+                }
+              },
+              "highlighttext": {
+                "type": "StructuredText",
+                "config": {
+                  "label": "HighlightText",
+                  "placeholder": "",
+                  "allowTargetBlank": true,
+                  "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+                }
+              }
+            }
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

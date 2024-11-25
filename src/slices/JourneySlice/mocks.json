@@ -1,0 +1,20 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"my_journey": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Et mollit eu velit reprehenderit veniam. Lorem pariatur eu ut nulla et sunt laboris deserunt proident esse. Proident est nisi incididunt magna occaecat."
+						}
+					}
+				]
+			}
+		},
+		"items": []
+	}
+]

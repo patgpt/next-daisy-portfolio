@@ -43,27 +43,14 @@
           "placeholder": ""
         }
       },
-      "tag": {
-        "type": "Group",
-        "config": {
-          "label": "tag",
-          "repeat": true,
-          "fields": {
-            "tag": {
-              "type": "Text",
-              "config": {
-                "label": "Tag",
-                "placeholder": ""
-              }
-            }
-          }
-        }
-      },
       "slices": {
         "type": "Slices",
         "fieldset": "Slice Zone",
         "config": {
           "choices": {
+            "tag_cloud": {
+              "type": "SharedSlice"
+            },
             "author": {
               "type": "SharedSlice"
             }

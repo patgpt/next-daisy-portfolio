@@ -1,0 +1,53 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"date": {
+				"__TYPE__": "FieldContent",
+				"type": "Date",
+				"value": "2017-12-07"
+			}
+		},
+		"items": []
+	},
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "fromTo",
+		"primary": {
+			"date": {
+				"__TYPE__": "FieldContent",
+				"type": "Date",
+				"value": "2016-08-25"
+			},
+			"date_to": {
+				"__TYPE__": "FieldContent",
+				"type": "Date",
+				"value": "2019-07-21"
+			}
+		},
+		"items": [
+			{
+				"__TYPE__": "GroupItemContent",
+				"value": []
+			}
+		]
+	},
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "published",
+		"primary": {
+			"date": {
+				"__TYPE__": "FieldContent",
+				"type": "Date",
+				"value": "2015-09-13"
+			}
+		},
+		"items": [
+			{
+				"__TYPE__": "GroupItemContent",
+				"value": []
+			}
+		]
+	}
+]

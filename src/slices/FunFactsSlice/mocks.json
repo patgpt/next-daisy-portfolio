@@ -1,0 +1,20 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"richtextlist": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Mollit quis enim duis consequat ad sit eiusmod Lorem non enim ex sint cupidatat. Proident est aliqua exercitation enim reprehenderit duis dolor nulla voluptate commodo consequat eiusmod ad. Ea cupidatat sint enim ea cupidatat proident tempor veniam consectetur ullamco deserunt."
+						}
+					}
+				]
+			}
+		},
+		"items": []
+	}
+]

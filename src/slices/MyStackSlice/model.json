@@ -1,0 +1,164 @@
+{
+  "id": "my_stack_slice",
+  "type": "SharedSlice",
+  "name": "MyStackSlice",
+  "description": "MyStackSlice",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "frontend": {
+          "type": "Group",
+          "config": {
+            "label": "Frontend",
+            "repeat": true,
+            "fields": {
+              "tech": {
+                "type": "Select",
+                "config": {
+                  "label": "Front End",
+                  "placeholder": "",
+                  "options": [
+                    "Sass",
+                    "CSS3",
+                    "HTML5",
+                    "Flutter",
+                    "Tailwind CSS",
+                    "CharkraUI",
+                    "Vue.js",
+                    "React.JS",
+                    "Next.js",
+                    "Typescript",
+                    "Storybook",
+                    "Playwrite"
+                  ]
+                }
+              }
+            }
+          }
+        },
+        "backend": {
+          "type": "Group",
+          "config": {
+            "label": "Backend",
+            "repeat": true,
+            "fields": {
+              "tech": {
+                "type": "Select",
+                "config": {
+                  "label": "Backend",
+                  "placeholder": "",
+                  "options": [
+                    "Node.js",
+                    "GraphQL",
+                    "Yoga",
+                    "REST APIs",
+                    "Firebase",
+                    "PostgreSQL",
+                    "MySQL"
+                  ]
+                }
+              }
+            }
+          }
+        },
+        "devops_automation": {
+          "type": "Group",
+          "config": {
+            "label": "DevOps and Automation",
+            "repeat": true,
+            "fields": {
+              "tech": {
+                "type": "Select",
+                "config": {
+                  "label": "Devops & Automation",
+                  "placeholder": "",
+                  "options": [
+                    "Docker",
+                    "GitHub Actions",
+                    "Vercel",
+                    "Heroku",
+                    "Google Cloud Platform (GCP)",
+                    "CI/CD",
+                    "Jest",
+                    "Optimizely",
+                    "Adobe Target"
+                  ]
+                }
+              }
+            }
+          }
+        },
+        "content_management_systems": {
+          "type": "Group",
+          "config": {
+            "label": "Content Management Systems",
+            "repeat": true,
+            "fields": {
+              "content_management": {
+                "type": "Select",
+                "config": {
+                  "label": "Content Management",
+                  "placeholder": "",
+                  "options": [
+                    "WordPress",
+                    "Contentful",
+                    "Prismic"
+                  ]
+                }
+              }
+            }
+          }
+        },
+        "mobile_development": {
+          "type": "Group",
+          "config": {
+            "label": "Mobile Development",
+            "repeat": true,
+            "fields": {
+              "tech": {
+                "type": "Select",
+                "config": {
+                  "label": "Mobile Development",
+                  "placeholder": "",
+                  "options": [
+                    "React Native",
+                    "Flutter"
+                  ]
+                }
+              }
+            }
+          }
+        },
+        "game_development": {
+          "type": "Group",
+          "config": {
+            "label": "Game Development",
+            "repeat": true,
+            "fields": {
+              "tech": {
+                "type": "Select",
+                "config": {
+                  "label": "Game development",
+                  "placeholder": "",
+                  "options": [
+                    "Unity",
+                    "Unreal Engine",
+                    "C#",
+                    "C++"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

@@ -1,7 +1,9 @@
-import Card, { type CardProps } from "./Card";
+import type { BlogPostDocument } from "../../../../prismicio-types";
+import Card from "./Card";
+
 
 export interface CardGridProps {
-    cards: CardProps[]
+    cards: BlogPostDocument<string>[]
 }
 
 const CardGrid = ({ cards }: CardGridProps) => {

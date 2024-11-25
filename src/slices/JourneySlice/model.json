@@ -1,0 +1,28 @@
+{
+  "id": "journey_box",
+  "type": "SharedSlice",
+  "name": "JourneySlice",
+  "description": "JourneyBox",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "my_journey": {
+          "type": "StructuredText",
+          "config": {
+            "label": "My Journey",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

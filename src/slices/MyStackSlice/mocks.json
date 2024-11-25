@@ -1,0 +1,117 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"frontend": {
+				"__TYPE__": "GroupContentType",
+				"value": [
+					{
+						"__TYPE__": "GroupItemContent",
+						"value": [
+							[
+								"tech",
+								{
+									"__TYPE__": "FieldContent",
+									"value": "HTML5",
+									"type": "Select"
+								}
+							]
+						]
+					}
+				]
+			},
+			"backend": {
+				"__TYPE__": "GroupContentType",
+				"value": [
+					{
+						"__TYPE__": "GroupItemContent",
+						"value": [
+							[
+								"tech",
+								{
+									"__TYPE__": "FieldContent",
+									"value": "REST APIs",
+									"type": "Select"
+								}
+							]
+						]
+					}
+				]
+			},
+			"devops_automation": {
+				"__TYPE__": "GroupContentType",
+				"value": [
+					{
+						"__TYPE__": "GroupItemContent",
+						"value": [
+							[
+								"tech",
+								{
+									"__TYPE__": "FieldContent",
+									"value": "CI/CD",
+									"type": "Select"
+								}
+							]
+						]
+					}
+				]
+			},
+			"content_management_systems": {
+				"__TYPE__": "GroupContentType",
+				"value": [
+					{
+						"__TYPE__": "GroupItemContent",
+						"value": [
+							[
+								"content_management",
+								{
+									"__TYPE__": "FieldContent",
+									"value": "Contentful",
+									"type": "Select"
+								}
+							]
+						]
+					}
+				]
+			},
+			"mobile_development": {
+				"__TYPE__": "GroupContentType",
+				"value": [
+					{
+						"__TYPE__": "GroupItemContent",
+						"value": [
+							[
+								"tech",
+								{
+									"__TYPE__": "FieldContent",
+									"value": "React Native",
+									"type": "Select"
+								}
+							]
+						]
+					}
+				]
+			},
+			"game_development": {
+				"__TYPE__": "GroupContentType",
+				"value": [
+					{
+						"__TYPE__": "GroupItemContent",
+						"value": [
+							[
+								"tech",
+								{
+									"__TYPE__": "FieldContent",
+									"value": "C#",
+									"type": "Select"
+								}
+							]
+						]
+					}
+				]
+			}
+		},
+		"items": []
+	}
+]
